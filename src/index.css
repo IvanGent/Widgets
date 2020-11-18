@@ -1,1 +1,25 @@
 /* TODO Add site wide styles */
+h1 {
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-size: larger;
+}
+
+.cd-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: 0 auto;
+  border: 1px solid black;
+  max-width: 1000px;
+  background-color: blueviolet;
+}
+
+.clock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+}
